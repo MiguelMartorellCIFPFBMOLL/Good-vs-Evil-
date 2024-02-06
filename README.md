@@ -1,15 +1,13 @@
 # Good-vs-Evil-
+ Esta es mi solución a Good vs Evil 
 
-### Esta es mi solución a Good vs Evil 
 
-
-public class GoodVsEvil {
+  public class GoodVsEvil {
   public static String battle(String goodAmounts, String evilAmounts) {
     String [] buenos = goodAmounts.split(" ");
     String [] malos = evilAmounts.split(" ");
     int sumadorbuenos = 0;
     int sumadormalos = 0;
-    
     for (int i = 0; i < buenos.length; i++){
       switch (i){
           case 0:
