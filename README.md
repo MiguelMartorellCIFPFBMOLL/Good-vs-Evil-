@@ -1,8 +1,8 @@
 # Good-vs-Evil-
  Esta es mi solución a Good vs Evil 
 
-
-  public class GoodVsEvil {
+ ```
+ public class GoodVsEvil {
   public static String battle(String goodAmounts, String evilAmounts) {
     String [] buenos = goodAmounts.split(" ");
     String [] malos = evilAmounts.split(" ");
@@ -64,4 +64,4 @@
     return "Battle Result: No victor on this battle field";
       }
   }
-}
+} ```
